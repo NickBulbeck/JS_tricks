@@ -70,7 +70,9 @@ const person = { firstName : "Dave", surname: "Smith", age: 34 };
 const element = document.getElementById('foadyb') // or whatever
 element.remove() // is a DOM method. Saves having to do parentnode.removechild etc etc
 
-
+// Setting an attribute...
+element.setAttribute('disabled',true);
+element.removeAttribute('disabled'); // That's one I didnae ken aboot
 
 
 
