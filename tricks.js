@@ -74,5 +74,10 @@ element.remove() // is a DOM method. Saves having to do parentnode.removechild e
 element.setAttribute('disabled',true);
 element.removeAttribute('disabled'); // That's one I didnae ken aboot
 
+// Maps and Sets... useful alternatives to arrays and objects. Sets cannot have duplicate values;
+// whereas Maps have a size, unlike objects. One or two other useful ideas. Consider when you're storing
+// temporary data.
+const mySet = new Set() // can also have an array, or values, passed in
+const myMap = new Map() // ditto
 
 
