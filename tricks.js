@@ -80,4 +80,17 @@ element.removeAttribute('disabled'); // That's one I didnae ken aboot
 const mySet = new Set() // can also have an array, or values, passed in
 const myMap = new Map() // ditto
 
+// adding options to a select list
+const mySelectList = document.createElement('select');
+mySelectList.add(document.createElement('option')) // You can put it before a specific item as well
+
+// arguments object
+const aFunction = (a,b,c) => {
+  console.log(arguments[0]);
+}
+afunction(1,2,3) // '1' is logged.
+
+
+
+
 
