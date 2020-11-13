@@ -69,6 +69,10 @@ const person = { firstName : "Dave", surname: "Smith", age: 34 };
 // Removing an element...
 const element = document.getElementById('foadyb') // or whatever
 element.remove() // is a DOM method. Saves having to do parentnode.removechild etc etc
+// Removing all child elements...
+while (element.firstChild) {
+  element.removeChild(element.firstChild);
+}
 
 // Setting an attribute...
 element.setAttribute('disabled',true);
@@ -88,7 +92,7 @@ mySelectList.add(document.createElement('option')) // You can put it before a sp
 const aFunction = (a,b,c) => {
   console.log(arguments[0]);
 }
-afunction(1,2,3) // '1' is logged.
+afunction(1,2,3) // '1' is logged. Except I can't actually get this to work
 
 
 
