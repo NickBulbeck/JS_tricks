@@ -89,10 +89,10 @@ const mySelectList = document.createElement('select');
 mySelectList.add(document.createElement('option')) // You can put it before a specific item as well
 
 // arguments object
-const aFunction = (a,b,c) => {
+function aFunction() = {
   console.log(arguments[0]);
 }
-afunction(1,2,3) // '1' is logged. Except I can't actually get this to work
+afunction(1,2,3) // '1' is logged. Note that this DOESN'T work with arrow functions
 
 
 
