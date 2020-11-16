@@ -94,7 +94,11 @@ function aFunction() = {
 }
 afunction(1,2,3) // '1' is logged. Note that this DOESN'T work with arrow functions
 
-
+// for-of:
+const elements = document.querySelectorAll('.foadyb'); // In other words, for-of can be used for 
+for (element of elements) {                            // node lists where .forEach doesn't always
+  console.log("Wotevahhh");                            // work. Use it to iterate over collections generally.
+}
 
 
 
