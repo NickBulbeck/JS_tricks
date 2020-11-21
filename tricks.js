@@ -100,5 +100,9 @@ for (element of elements) {                            // node lists where .forE
   console.log("Wotevahhh");                            // work. Use it to iterate over collections generally.
 }
 
+// Event-listeners: can be attached to the document object itself, via a
+// query selector or similar, before you actually create the element. That way
+// the listener is ready and waiting when you dynamically create the elements, 
+// instead of you having to create it after the code runs to create them.
 
 
