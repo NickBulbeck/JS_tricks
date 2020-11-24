@@ -105,4 +105,21 @@ for (element of elements) {                            // node lists where .forE
 // the listener is ready and waiting when you dynamically create the elements, 
 // instead of you having to create it after the code runs to create them.
 
+// Factories: something that returns an object, as distinct from a class that is the template for an object.
+// The example given was for a factory that creates rockets of a specific color:
+const RocketFactory = (c) => {
+	const colour = c;
+	return {
+		launch: () => console.log(`The ${colour} rocket has launched`); // a function - i.e this is a method
+		land: () => console.log(`The ${colour} rocket has landed`); // but you could equally add properties
+	}
+}
+const purpleRocket = RocketFactory('purple');
+purpleRocket.launch(); // Two advantages: the colour property can't be altered. And the object can be attached
+					   // to a button-click or similar event without confusion over the context of 'this' which
+					   // you would have in a class method containing this.colour.
+
+
+
+
 
