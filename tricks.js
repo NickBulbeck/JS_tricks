@@ -119,7 +119,9 @@ purpleRocket.launch(); // Two advantages: the colour property can't be altered. 
 					   // to a button-click or similar event without confusion over the context of 'this' which
 					   // you would have in a class method containing this.colour.
 
+// insertAdjacentHTML - just remember that this exists!
 
-
-
+const element = document.createElement('Wotevahhh');
+const html = outputOfAComplicatedFunction();
+Wotevahhh.insertAdjacentHTML('beforeend',html );
 
