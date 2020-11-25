@@ -125,3 +125,13 @@ const element = document.createElement('Wotevahhh');
 const html = outputOfAComplicatedFunction();
 Wotevahhh.insertAdjacentHTML('beforeend',html );
 
+// for...in is useful for cycling through the keys of an object. Good example: the quotes array from
+// project 1. Instead of testing every property individually, you can use 
+for (property in quotes) {
+  if (property) {
+    // display property
+  }
+}
+
+
+
