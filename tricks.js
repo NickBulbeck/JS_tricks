@@ -135,4 +135,6 @@ for (property in quotes) {
 // check this one out.
 element.dataset.position
 
+// For testing, in future: check out the idea of a *recording*. That is, you call an API once, then
+// record its response, and use that for future testing.
 
