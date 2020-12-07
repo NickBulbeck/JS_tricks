@@ -140,3 +140,6 @@ element.dataset.position
 
 // Interesting api's
 // mapbox
+
+// path.join()
+app.set('views', path.join(__dirname, 'views'));
