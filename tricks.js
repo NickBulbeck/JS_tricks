@@ -143,3 +143,9 @@ element.dataset.position
 
 // path.join()
 app.set('views', path.join(__dirname, 'views'));
+
+// document.createDocumentFragment - used when creating a lot of elements and then appending them once
+// to the DOM. Each interaction with the DOM takes (relatively speaking) a lot of time and resource, 
+// apparently, so this cuts down on the overhead. Looks a bit like using innerHTML instead of a lot of
+// createElement's
+const fragment = document.createDocumentFragment;
