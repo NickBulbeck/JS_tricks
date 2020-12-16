@@ -149,3 +149,21 @@ app.set('views', path.join(__dirname, 'views'));
 // apparently, so this cuts down on the overhead. Looks a bit like using innerHTML instead of a lot of
 // createElement's
 const fragment = document.createDocumentFragment;
+
+// range slider: it's an HTML element that is, apparently, draggable. It can be given width and 
+// height, along with all the other usual styling, 
+const html = `<input type="range" min="1" max="100" value="50" class="slider id="myRange">`;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
