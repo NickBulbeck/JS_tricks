@@ -154,7 +154,8 @@ const fragment = document.createDocumentFragment;
 // height, along with all the other usual styling, 
 const html = `<input type="range" min="1" max="100" value="50" class="slider id="myRange">`;
 
-
+// useCallback() is a React hook that caches a function created when a React component is
+// rendered. It stops you re-creating the function every time the component is re-rendered.
 
 
 
