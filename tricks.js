@@ -158,7 +158,7 @@ const html = `<input type="range" min="1" max="100" value="50" class="slider id=
 // rendered. It stops you re-creating the function every time the component is re-rendered.
 
 
-
+// try the window.history object for back button enabling.
 
 
 
