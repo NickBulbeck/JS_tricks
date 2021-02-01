@@ -160,7 +160,7 @@ const html = `<input type="range" min="1" max="100" value="50" class="slider id=
 
 // try the window.history object for back button enabling.
 
-
+// cors-anywhere: use this to add cors headers. Just google it and see.
 
 
 
