@@ -162,9 +162,12 @@ const html = `<input type="range" min="1" max="100" value="50" class="slider id=
 
 // cors-anywhere: use this to add cors headers. Just google it and see.
 
+speechSynthesis.speak(new SpeechSynthesisUtterance(`Currently it is 3 o'clock in the afternoon.`));
 
-
-
-
+// Responsive font (and other) sizing: CSS min, max and clamp
+div { 
+  // other CSS... 
+  font-size: clamp(1.1rem, 0.7153rem + 1.6368vw, 1.5rem);
+}
 
 
