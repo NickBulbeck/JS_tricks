@@ -170,4 +170,5 @@ div {
   font-size: clamp(1.1rem, 0.7153rem + 1.6368vw, 1.5rem);
 }
 
-
+// HTML progress bar...
+<progress value="a number"></progress>
