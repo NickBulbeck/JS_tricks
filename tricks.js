@@ -172,3 +172,6 @@ div {
 
 // HTML progress bar...
 <progress value="a number"></progress>
+/// More HTML stuff...
+// <output> for the result of user calculations
+// <optgroup> for grouping select options
