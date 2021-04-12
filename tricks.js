@@ -175,3 +175,10 @@ div {
 /// More HTML stuff...
 // <output> for the result of user calculations
 // <optgroup> for grouping select options
+
+
+// Here's an interesting one; check if an array is empty. Specifically: the .? hingmy.
+const arr = [];
+const isNotEmpty = Boolean(arr?.length);
+console.log(isNotEmpty);
+// logs out 'false'. Because if an array is undefined or non-existent, it isn't empty either, remember.
