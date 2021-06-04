@@ -182,3 +182,8 @@ const arr = [];
 const isNotEmpty = Boolean(arr?.length);
 console.log(isNotEmpty);
 // logs out 'false'. Because if an array is undefined or non-existent, it isn't empty either, remember.
+
+// Changing the console.log colour:
+console.log(`\x1b[31m${err.status}: ${err.message}\x1b[0m`); // red text, then resets
+
+
