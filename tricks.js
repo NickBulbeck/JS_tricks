@@ -186,4 +186,13 @@ console.log(isNotEmpty);
 // Changing the console.log colour:
 console.log(`\x1b[31m${err.status}: ${err.message}\x1b[0m`); // red text, then resets
 
+// A way to cut down on nested if's... use a nobject like this.
+// If it's not in the list, log out "I don't know that"
+const babyAnimal = {
+  cat:'Kitten',
+  cattle:'Calf',
+  cheetah:'Cub',
+  dog:'Pup'
+}
+return babyAnimal[animal.toLowerCase()] ?? "I don't know that"
 
